@@ -12,7 +12,7 @@ cd $DIR/../backbone
 
 grunt build
 
-cp dist/* $DIR/
+cp -r dist/* $DIR/
 
 cd $DIR/
 
